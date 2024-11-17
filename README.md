@@ -6,13 +6,10 @@ This repository contains the frontend application for the Cafe Management App bu
 
 1. [About](#about)
 2. [Prerequisites](#prerequisites)
-3. [Getting Started](#getting-started)
-4. [Run the App Locally](#run-the-app-locally)
-5. [Run the App with Docker](#run-the-app-with-docker)
-6. [Project Structure](#project-structure)
-7. [Available Scripts](#available-scripts)
-8. [Further Improvements](#further-improvements)
-9. [License](#license)
+3. [Dependencies](#getting-started)
+4. [Getting Started](#run-the-app-locally)
+5. [Further Improvements](#further-improvements)
+
 
 ## About
 
@@ -61,5 +58,28 @@ To run this application locally, make sure you have the following tools installe
 To get started with the app, first clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/cafe-management-app-frontend.git
+git clone https://github.com/praveenwanninayake/CafeService_FE.git
 cd cafe-management-app-frontend
+
+### 2. Install Dependencies
+
+Install the required dependencies using npm:
+
+npm install
+
+
+### 3. Run the App Locally
+
+Set the back end URL on .env : REACT_APP_BACKEND_URL='http://localhost:5052/api'
+
+Once dependencies are installed, you can run the application locally with the following command:
+
+npm start
+
+
+## Further Improvements
+
+- Implement authentication and authorization features (e.g., login/logout functionality).
+- Add more features like order history, menu item customization, and payments integration.
+- Enhance mobile responsiveness and UI/UX design.
+- Add unit and integration tests.
