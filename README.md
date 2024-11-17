@@ -1,5 +1,3 @@
-It looks like you've provided a good structure for the **Cafe Management App** frontend repository. Here’s a clean and formatted version of the README:
-
 ---
 
 # Cafe Management App (Frontend) - React
