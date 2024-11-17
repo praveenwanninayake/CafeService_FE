@@ -26,7 +26,7 @@ To run this application locally, make sure you have the following tools installe
 
 - **Node.js** (v18.x or higher)
 - **npm** (v6 or higher)
-- 
+  
 ## Dependencies
 
     "@emotion/styled": "^11.13.0",
